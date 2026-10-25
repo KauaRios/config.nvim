@@ -40,4 +40,4 @@ require("lazy").setup({
 
 -- Abre ou fecha a árvore lateral.
 vim.keymap.set("n", "<leader>e", "<cmd>Neotree toggle<cr>", { desc = "Alternar explorador de arquivos" })
-vim.opt.ralativenumber=true
+vim.opt.relativenumber=true
